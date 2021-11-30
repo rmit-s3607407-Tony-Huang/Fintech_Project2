@@ -7,7 +7,7 @@ Public sentiments on crypto assets can predict future price movement.
 
 
 ## Strategy
-We will use NLP to mine text and measure sentiments on popular social media forums - reddit and search engine - google on days before a signifcant price movement. Our analysis will be looking for a correlation between sentiment score and crypto asset price movement.
+We will use NLP to mine text and measure sentiments on popular social media forums (reddit) and search engine (google) on days before a signifcant price movement. Our analysis will be looking for a correlation between sentiment score and crypto asset price movement.
 
 
 
