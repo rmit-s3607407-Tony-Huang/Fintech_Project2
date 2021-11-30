@@ -16,8 +16,5 @@ Methodology
 - Perform sentiment analysis for cryto asset on the online content before the 10% price change
 - Train ML model on the sentiments scores across the social media channels using class as our target variable.
 - Predict target variable on test data
-- Test ML model on other crypto assets
-- 
 - Repeat above steps on other crypto assets 
-- Find buzzword associated with each asset and affects price movement.
-- Use ML model to predict when a 10% price movement is likely to occure on a given the current sentiment score on the crypto asset.
+- Use ML model to predict when a 10% price movement is likely to occur given the current sentiment score on the crypto asset.
