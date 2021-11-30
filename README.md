@@ -8,12 +8,16 @@ We also want to analyse previous large price movements and do sentiment analysis
 
 
 Methodology
-- Find dates where there was a significant price movement on MANA, i.e 10% gain or loss
-- Use NLP to analyse previous 30 days keyword trend for the stock or crypto asset or keywords associated with the asset i.e NFT, cross chain, metaverse etc to measure the strength of sentiments on asset/associated keywords before the price movement
-- Repeat analysis DOT, BTC, ETH & LINK with significant price movements.
-- Find buzzword associated with each asset and affects price movements
-- Testing sentiment periods of 1D, 2D & 5D (apply weighting based on results)
-- Find a threshold sentiment score that translates into a significant movement in asset price. Use score as benchmark 
-- Select new crypto for future predictions and analyse their current trend.
-- Analyse sentiment score for crypto asset and compare with the model benchmark
-- Make predictions on the probable future direction. 
+- Find dates in trading days where there was a significant price movement on a crypto asset, i.e 10% gain or loss
+- Put in a dataframe.
+- Add class to dataframe such that: => 10% price movement = 1, < 10% but greater > -10% = 0,  
+- Collect prior 3 -10 days social media commentary, articles, news and online contents on the crypto assest and put in a dataframe.
+- Use TF-IDF to analyse text in dataframe to check for unique words and their relevancy. Words with high TF-IDF score > 0.04 will be stored as an associated keyword for the crypto asset. 
+- Perform sentiment analysis for cryto asset on the online content before the 10% price change
+- Train ML model on the sentiments scores across the social media channels using class as our target variable.
+- Predict target variable on test data
+- Test ML model on other crypto assets
+- 
+- Repeat above steps on other crypto assets 
+- Find buzzword associated with each asset and affects price movement.
+- Use ML model to predict when a 10% price movement is likely to occure on a given the current sentiment score on the crypto asset.
