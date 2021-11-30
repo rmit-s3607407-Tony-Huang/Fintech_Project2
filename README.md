@@ -2,12 +2,16 @@
 ## Monash University FinTech Bootcamp Project 2
 ### Using sentiment score on crypto asset to predict direction of price change
 
-We want to google trends api to search for trending stocks and crypto 
-We want to analyse trending stocks and cryptos in various forums such as news api, reddit and twitter
-We also want to analyse previous large price movements and do sentiment analysis on the previous week of data
+## Hypothesis
+Public sentiments on crypto assets can predict future price movement.
 
 
-Methodology
+## Strategy
+We will use NLP to mine text and measure sentiments on popular social media forums and search engines such as twitter, reddit, google and newsapi on days before a signifcant price movement. Our analysis will be looking for a correlation between sentiment score and crypto asset price movement.
+
+
+
+## Methodology
 - Find dates in trading days where there was a significant price movement on a crypto asset, i.e 10% gain or loss
 - Put in a dataframe.
 - Add class to dataframe such that: => 10% price movement = 1, < 10% but greater > -10% = 0,  
