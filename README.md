@@ -22,3 +22,19 @@ We will use NLP to mine text and measure sentiments on popular social media foru
 - Predict target variable on test data
 - Repeat above steps on other crypto assets 
 - Use ML model to predict when a 10% price movement is likely to occur given the current sentiment score on the crypto asset.
+
+## Algorithms used
+- KNN
+- Random Forest
+- XGBoost
+
+## Findings
+Google trend and google buzz word score ranked higher than other features on both random forest and xgboost alogrithms
+
+## Conclusion
+Based on the performance metrics observed in Random Forest and XGBoost, our analysis reveal that public sentiments does have effect on crypto price. However, our model is limited to data collected from Reddit and Google. 
+
+## To Explore
+-  Effect of price data on model performance
+-  Data from other social media platforms and news articles i.e twitter, facebook, news api, etc
+-  Volatility
