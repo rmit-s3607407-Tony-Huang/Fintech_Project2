@@ -31,6 +31,9 @@ We will use NLP to mine text and measure sentiments on popular social media foru
 ## Findings
 Google trend and google buzz word score ranked higher than other features on both random forest and xgboost alogrithms
 
+![image](https://user-images.githubusercontent.com/34574729/144804236-2a115c8c-af7a-48b7-8f2a-cb4880ffa51f.png)
+
+
 ## Conclusion
 Based on the performance metrics observed in Random Forest and XGBoost, our analysis reveal that public sentiments does have effect on crypto price. However, our model is limited to data collected from Reddit and Google. 
 
