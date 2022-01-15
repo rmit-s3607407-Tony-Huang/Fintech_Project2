@@ -1,5 +1,5 @@
 # Natural Language Processing for Trending Stocks and Cryptos
-## Monash University FinTech Bootcamp Project 2
+FinTech Project 2
 ### Using sentiment score on crypto asset to predict direction of price change
 
 ## Hypothesis
